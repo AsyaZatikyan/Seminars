@@ -10,14 +10,14 @@
  2. наити наибольшее число;
    */
 
-int GetNumber();
+int GetNumber()
 {
     Random rnd = new Random();
     int result = rnd.Next(10, 100); // [10, 100)
     return result;
 }
 
-int GetMaxDigit0fNumber(int number);
+int GetMaxDigit0fNumber(int number)
 {
     int firstDigit = number / 10;
     int secondDigit = number % 10;
